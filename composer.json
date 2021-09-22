@@ -1,0 +1,19 @@
+{
+  "name": "7sg/ratelimiter",
+  "description": "Provides a request pattern to rate limit Flow / Neos Applications",
+  "type": "neos-package",
+  "require": {
+    "neos/flow": "*",
+    "maba/gentle-force": "~0.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seven\\RateLimiter\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "Seven.RateLimiter"
+    }
+  }
+}
